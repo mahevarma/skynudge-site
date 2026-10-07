@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SkyNudge Privacy Policy</title>
+  <link rel="icon" href="app-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <img src="app-icon.png" alt="SkyNudge logo">
+    <h1>Privacy Policy</h1>
+  </header>
+  <p>Last updated: 7 October 2026</p>
+  <p>SkyNudge is a desktop app for Windows that shows a paper-plane reminder before your meetings, tasks and reminders. This policy explains what data SkyNudge accesses and what it does with it. In short: <strong>your data stays on your computer.</strong></p>
+
+  <h2>Data SkyNudge accesses</h2>
+  <ul>
+    <li><strong>Google Calendar (optional):</strong> if you connect a Google account, SkyNudge requests read-only access to your calendars (<code>https://www.googleapis.com/auth/calendar.readonly</code>) and your email address (to label the account in the app). It reads the list of your calendars and, for events in a window from 12 hours ago to 8 days ahead, each event's title, start and end time, location, video-meeting link, whether it was cancelled, and your own reply to the invitation (so declined meetings are skipped). It does not read event descriptions or other attendees' details.</li>
+    <li><strong>Microsoft Outlook (optional):</strong> if you connect a Microsoft account, SkyNudge requests <code>Calendars.Read</code> and <code>User.Read</code> to read the same kind of event information and your email address.</li>
+    <li><strong>Your own tasks and reminders</strong> that you type into the app.</li>
+  </ul>
+
+  <h2>How the data is used</h2>
+  <p>Calendar data is used only to decide when to show a reminder and what to display on it (for example the meeting title and a Join link). SkyNudge never creates, edits or deletes calendar events.</p>
+
+  <h2>Where the data is stored</h2>
+  <ul>
+    <li>Your settings, tasks and reminders are stored in a file on your own computer (<code>%APPDATA%\com.pygio.skynudge</code>).</li>
+    <li>Calendar events are kept in the app's memory on your computer while it runs, and refreshed about every 5 minutes.</li>
+    <li>Sign-in tokens are stored in Windows Credential Manager on your computer.</li>
+  </ul>
+
+  <h2>Sharing</h2>
+  <p>SkyNudge has no servers. It talks directly from your computer to Google or Microsoft and to nobody else. We do not collect, receive, sell, rent or share your data with anyone, and the app contains no advertising, analytics or tracking.</p>
+
+  <h2>Google API Services User Data Policy</h2>
+  <p>SkyNudge's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Removing your data</h2>
+  <ul>
+    <li>Click <strong>Disconnect</strong> next to an account on the Calendars page to delete its sign-in token and stop syncing.</li>
+    <li>You can also revoke access at any time from your Google account at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, or from your Microsoft account's app permissions.</li>
+    <li>Uninstalling SkyNudge and deleting the <code>%APPDATA%\com.pygio.skynudge</code> folder removes everything else.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>SkyNudge is not directed at children under 13.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be posted on this page with a new date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy: <a href="mailto:maheshgmv@gmail.com">maheshgmv@gmail.com</a></p>
+
+  <footer><a href="index.html">← SkyNudge home</a></footer>
+</main>
+</body>
+</html>
